@@ -1,0 +1,67 @@
+@import url("reset.css");
+
+body
+{
+    min-height: 100vh;
+
+    /* background-color: rgb(20, 20, 20); */
+    background: linear-gradient(to right, rgb(10,10,10), rgb(30,30,30));
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container
+{
+    display: block;
+
+    position: relative;
+
+    padding: 2rem;
+    margin-bottom: 0.5rem;
+    width: min-content;
+    height: min-content;
+    /* min-width: 100vh;
+    max-width: 100vh;
+    min-height: 50vh;
+    max-height: 60vh; */
+
+    background: linear-gradient(to right top, rgba(26,33,47,0.5), rgba(26,33,47,1));    
+
+    border-radius: 12px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#image-state
+{
+    padding: 0.5rem;
+    width: 40vh;
+    border-width: 10px;
+    border-color: lightskyblue;
+    border-style: double;
+    border-radius: 100%;
+}
+#main
+{
+    /* transform: translateY(-12%); */
+}
+#ubication-div
+{
+    border-style: double;
+    border-color: lightskyblue;
+    border-width: 10px;
+    margin: 1rem;
+}
+p
+{
+    color: white;
+    font-style:italic;
+    padding: 0.5rem;
+}
+.credits
+{
+    color: white;
+    font-size: 1rem;
+}
