@@ -37,13 +37,25 @@ body
     justify-content: center;
 }
 
-@media (min-width: 400px)
+@media (min-width: 500px)
 {
     #image-state
     {
         padding: 0.5rem;
         width: 40vh;
         border-width: 10px;
+        border-color: lightskyblue;
+        border-style: double;
+        border-radius: 100%;
+    }
+}
+@media (max-width: 500px)
+{
+    #image-state
+    {
+        padding: 0.25rem;
+        width: 25vh;
+        border-width: 5px;
         border-color: lightskyblue;
         border-style: double;
         border-radius: 100%;
