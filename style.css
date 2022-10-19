@@ -10,9 +10,8 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-repeat: no-repeat;
-    background-color: rgb(30,30,30);
+    background-color: rgb(30, 30, 30);
 }
 .main-container
 {
@@ -37,14 +36,18 @@ body
     align-items: center;
     justify-content: center;
 }
-#image-state
+
+@media (min-width: 400px)
 {
-    padding: 0.5rem;
-    width: 40vh;
-    border-width: 10px;
-    border-color: lightskyblue;
-    border-style: double;
-    border-radius: 100%;
+    #image-state
+    {
+        padding: 0.5rem;
+        width: 40vh;
+        border-width: 10px;
+        border-color: lightskyblue;
+        border-style: double;
+        border-radius: 100%;
+    }
 }
 #main
 {
